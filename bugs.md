@@ -1,22 +1,20 @@
-# Issue Template
+---
+name: Issue Report
+about: Use this template to report a problem
+title: "[VERSION] [PROBLEM SUMMARY]"
+labels: bug
+assignees:
+---
 
 ## Prerequisites
 
-Please answer the following questions for yourself before submitting an issue. **YOU MAY DELETE THE PREREQUISITES SECTION.**
+### Checklist
 
 - [ ] I am running the latest version
 - [ ] I checked the documentation and found no answer
 - [ ] I checked to make sure that this issue has not already been filed
 - [ ] I'm reporting the issue to the correct repository (for multi-repository projects)
-
-## Context
-
-Please provide any relevant information about your setup. This is important in case the issue is not reproducible except for under certain conditions.
-
-* Firmware Version:
-* Operating System:
-* SDK version:
-* Toolchain version:
+- [ ] I have provided sufficient information for the team
 
 ## Expected Behavior
 
@@ -25,6 +23,15 @@ Please describe the behavior you are expecting
 ## Current Behavior
 
 What is the current behavior?
+
+## Context
+
+Please provide any relevant information about your setup. This is important in case the issue is not reproducible except for under certain conditions.
+
+* Project Version:
+* Operating System:
+* Toolchain:
+* Toolchain version:
 
 ## Failure Information (for bugs)
 
