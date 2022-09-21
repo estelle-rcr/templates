@@ -1,4 +1,4 @@
-name: Bug Report
+name: Bug issue form
 description: File a bug report
 title: "[Bug]: "
 labels: ["bug", "duplicate", "enhancement", "help wanted", "invalid", "question", "wontfix"]
