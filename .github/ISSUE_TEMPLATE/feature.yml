@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this feature request! |
+        Thanks for taking the time to fill out this feature request! 
         Please select the relevant label options and milestone
   - type: textarea
     id: user-story
@@ -29,10 +29,11 @@ body:
     id: acceptance-criteria
     attributes:
       label: Expected Behavior / Acceptance criteria
-      description: Describe what you want to happen with as much details as possible |
-        it should be testable. |
-        it should be clear and concise |
-        it should provide user perspective |
+      description: |
+        Describe what you want to happen with as much details as possible
+        it should be testable.
+        it should be clear and concise
+        it should provide user perspective
       placeholder: When [user] does [this], then it should do [that]
     validations:
       required: true
