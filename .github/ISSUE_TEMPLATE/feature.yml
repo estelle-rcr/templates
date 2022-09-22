@@ -1,5 +1,5 @@
 name: Feature request
-description: File a feaure request
+description: File a feature request
 title: "[User Story] Short description"
 labels: ["enhancement", "new feature"]
 assignees:
@@ -26,7 +26,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: expected-behavior
+    id: acceptance-criteria
     attributes:
       label: Expected Behavior / Acceptance criteria
       description: Describe what you want to happen with as much details as possible |
