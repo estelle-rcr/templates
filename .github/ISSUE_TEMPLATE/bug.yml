@@ -1,14 +1,15 @@
 name: Bug Report
 description: File a bug report
-title: "[Bug]: "
-labels: ["bug", "duplicate", "enhancement", "help wanted", "invalid", "question", "wontfix"]
+title: "[Bug] Short description"
+labels: ["bug"]
 assignees:
   -
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Thanks for taking the time to fill out this bug report! |
+        Please select the relevant label options and milestone
   - type: textarea
     id: bug-description
     attributes:
@@ -80,3 +81,5 @@ body:
       label: Relevant log output
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
       render: shell
+    validations:
+      required: false

@@ -19,10 +19,10 @@ You can have a list of stories or epics:
 * As a user, I can backup my entire hard drive.
 
 ## Acceptance Criteria
-Predefined requirements that must be met to mark a user story complete:
-* Acceptance criteria should be testable.
-* Criteria should be clear and concise
-* Acceptance criteria should provide user perspective
+Describe what you want to happen with as much details as possible:
+* it should be testable.
+* it should be clear and concise
+* it should provide user perspective
 
 ## Associated Mechanisms
 
